@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+  color: #1a1a1a;
+  font-family: "Signika", sans-serif;
+  margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFF;
+    width: 100vw;
+}
+
+header img {
+    width: 160px;
+    height: auto;
+    margin: 12px 30px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-top: 22px;
+}
+
+header ul li a{
+    margin-right: 50px;
+    padding: 8px;
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+
+.hero-section{
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-section h1{
+    font-size: 70px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    width: 550px;
+    text-align: center;
+}
+
+.whats-on-spotify {
+    text-align: center;
+    margin: 40px;
+  }
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.row .column img {
+    width: 120px;
+    height: auto;
+  }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row .column{
+    text-align: center;
+    width: 250px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.row .column h3 {
+    color: #00B172;
+    font-size: 1.5em; 
+}
+
+.row .column p {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.spotify-features{
+    background-color: #00B172;
+}
+
+.spotify-white-icon{
+    width: 100px;
+    height: auto;
+    margin-right: 200px;
+}
+
+.spotify-app{
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.section-title--white{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+hr {
+    border-bottom: 3px solid #FFF;
+}
+
+.section-title {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #00b172;
+    display: inline;
+  }
+
+.spotify-features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00b172;
+    color: #fff;
+    padding: 90px;
+}
+
+.feature-blocks{
+    width: 260px;
+    font-size: 1.1em;
+    line-height: 1.9;
+}
+
+.feature-blocks:first-of-type {
+    padding-top: 30px;
+  }
